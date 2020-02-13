@@ -3,29 +3,66 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99639ABCBABDC99EC92673DA /* Pods_photobazar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE2A421462EF9C54DE8A68C /* Pods_photobazar.framework */; };
 		F71001FE23DECAE9002517DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71001FD23DECAE9002517DC /* AppDelegate.swift */; };
-		F710020023DECAE9002517DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71001FF23DECAE9002517DC /* ViewController.swift */; };
+		F710020023DECAE9002517DC /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71001FF23DECAE9002517DC /* loginVC.swift */; };
 		F710020323DECAE9002517DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F710020123DECAE9002517DC /* Main.storyboard */; };
 		F710020523DECAEE002517DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F710020423DECAEE002517DC /* Assets.xcassets */; };
 		F710020823DECAEE002517DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F710020623DECAEE002517DC /* LaunchScreen.storyboard */; };
+		F710021023DECB88002517DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F710020F23DECB88002517DC /* GoogleService-Info.plist */; };
+		F72F1E9923F1372800516845 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72F1E9823F1372800516845 /* ViewController.swift */; };
+		F72F1E9B23F1375400516845 /* registervc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72F1E9A23F1375300516845 /* registervc.swift */; };
+		F73041B923F529ED00C46D1C /* login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73041B823F529ED00C46D1C /* login.storyboard */; };
+		F73041BC23F5366D00C46D1C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73041BB23F5366C00C46D1C /* Extensions.swift */; };
+		F73041C023F5503200C46D1C /* constaints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73041BF23F5503200C46D1C /* constaints.swift */; };
+		F73041C323F5595400C46D1C /* Roundedviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73041C223F5595400C46D1C /* Roundedviews.swift */; };
+		F779E6D423E03F11006173F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F779E6D323E03F11006173F1 /* AppDelegate.swift */; };
+		F779E6D623E03F11006173F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F779E6D523E03F11006173F1 /* ViewController.swift */; };
+		F779E6D923E03F11006173F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F779E6D723E03F11006173F1 /* Main.storyboard */; };
+		F779E6DE23E03F26006173F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F779E6DC23E03F26006173F1 /* LaunchScreen.storyboard */; };
+		F779E6E423E03FE1006173F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F710020423DECAEE002517DC /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4BE2A421462EF9C54DE8A68C /* Pods_photobazar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photobazar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E59633938290CAA1144E5BD /* Pods-photobazar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photobazar.debug.xcconfig"; path = "Target Support Files/Pods-photobazar/Pods-photobazar.debug.xcconfig"; sourceTree = "<group>"; };
 		F71001FA23DECAE9002517DC /* photobazar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photobazar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71001FD23DECAE9002517DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F71001FF23DECAE9002517DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F71001FF23DECAE9002517DC /* loginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
 		F710020223DECAE9002517DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F710020423DECAEE002517DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F710020723DECAEE002517DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F710020923DECAEE002517DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F710020F23DECB88002517DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F72F1E9823F1372800516845 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F72F1E9A23F1375300516845 /* registervc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registervc.swift; sourceTree = "<group>"; };
+		F73041B823F529ED00C46D1C /* login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = login.storyboard; sourceTree = "<group>"; };
+		F73041BB23F5366C00C46D1C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F73041BF23F5503200C46D1C /* constaints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constaints.swift; sourceTree = "<group>"; };
+		F73041C223F5595400C46D1C /* Roundedviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roundedviews.swift; sourceTree = "<group>"; };
+		F779E6D123E03F11006173F1 /* photobazaradmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photobazaradmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F779E6D323E03F11006173F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F779E6D523E03F11006173F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F779E6D823E03F11006173F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F779E6DD23E03F26006173F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F779E6DF23E03F26006173F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE24EEDFF2E390479D1CD637 /* Pods-photobazar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photobazar.release.xcconfig"; path = "Target Support Files/Pods-photobazar/Pods-photobazar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F71001F723DECAE9002517DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99639ABCBABDC99EC92673DA /* Pods_photobazar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F779E6CE23E03F11006173F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,11 +72,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F5C7F1AA0A121E8D6C765BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BE2A421462EF9C54DE8A68C /* Pods_photobazar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0968C8CF42370D61EC31372 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E59633938290CAA1144E5BD /* Pods-photobazar.debug.xcconfig */,
+				FE24EEDFF2E390479D1CD637 /* Pods-photobazar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F71001F123DECAE9002517DC = {
 			isa = PBXGroup;
 			children = (
+				F779E6E323E03F4E006173F1 /* asset */,
 				F71001FC23DECAE9002517DC /* photobazar */,
+				F779E6D223E03F11006173F1 /* photobazaradmin */,
 				F71001FB23DECAE9002517DC /* Products */,
+				B0968C8CF42370D61EC31372 /* Pods */,
+				2F5C7F1AA0A121E8D6C765BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				F71001FA23DECAE9002517DC /* photobazar.app */,
+				F779E6D123E03F11006173F1 /* photobazaradmin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +113,88 @@
 		F71001FC23DECAE9002517DC /* photobazar */ = {
 			isa = PBXGroup;
 			children = (
-				F71001FD23DECAE9002517DC /* AppDelegate.swift */,
-				F71001FF23DECAE9002517DC /* ViewController.swift */,
-				F710020123DECAE9002517DC /* Main.storyboard */,
-				F710020423DECAEE002517DC /* Assets.xcassets */,
-				F710020623DECAEE002517DC /* LaunchScreen.storyboard */,
+				F72F1E9723F135AF00516845 /* model */,
+				F72F1E9423F1351500516845 /* view */,
+				F72F1E9323F134F600516845 /* controller */,
+				F72F1E9623F1352C00516845 /* storyboards */,
 				F710020923DECAEE002517DC /* Info.plist */,
+				F710020F23DECB88002517DC /* GoogleService-Info.plist */,
 			);
 			path = photobazar;
+			sourceTree = "<group>";
+		};
+		F72F1E9323F134F600516845 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F71001FF23DECAE9002517DC /* loginVC.swift */,
+				F72F1E9A23F1375300516845 /* registervc.swift */,
+				F72F1E9823F1372800516845 /* ViewController.swift */,
+				F71001FD23DECAE9002517DC /* AppDelegate.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F72F1E9423F1351500516845 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F72F1E9623F1352C00516845 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F73041B823F529ED00C46D1C /* login.storyboard */,
+				F710020123DECAE9002517DC /* Main.storyboard */,
+				F710020623DECAEE002517DC /* LaunchScreen.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		F72F1E9723F135AF00516845 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F73041BA23F5361600C46D1C /* utilitis */ = {
+			isa = PBXGroup;
+			children = (
+				F73041BB23F5366C00C46D1C /* Extensions.swift */,
+				F73041BF23F5503200C46D1C /* constaints.swift */,
+			);
+			path = utilitis;
+			sourceTree = "<group>";
+		};
+		F73041C123F558FA00C46D1C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F73041C223F5595400C46D1C /* Roundedviews.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F779E6D223E03F11006173F1 /* photobazaradmin */ = {
+			isa = PBXGroup;
+			children = (
+				F779E6D323E03F11006173F1 /* AppDelegate.swift */,
+				F779E6D523E03F11006173F1 /* ViewController.swift */,
+				F779E6D723E03F11006173F1 /* Main.storyboard */,
+				F779E6DC23E03F26006173F1 /* LaunchScreen.storyboard */,
+				F779E6DF23E03F26006173F1 /* Info.plist */,
+			);
+			path = photobazaradmin;
+			sourceTree = "<group>";
+		};
+		F779E6E323E03F4E006173F1 /* asset */ = {
+			isa = PBXGroup;
+			children = (
+				F73041C123F558FA00C46D1C /* view */,
+				F73041BA23F5361600C46D1C /* utilitis */,
+				F710020423DECAEE002517DC /* Assets.xcassets */,
+			);
+			path = asset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F710020C23DECAEE002517DC /* Build configuration list for PBXNativeTarget "photobazar" */;
 			buildPhases = (
+				DF829D47A7A7FB19CB590AB5 /* [CP] Check Pods Manifest.lock */,
 				F71001F623DECAE9002517DC /* Sources */,
 				F71001F723DECAE9002517DC /* Frameworks */,
 				F71001F823DECAE9002517DC /* Resources */,
+				D0009BE3386505134FE9E5D1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -82,6 +217,23 @@
 			name = photobazar;
 			productName = photobazar;
 			productReference = F71001FA23DECAE9002517DC /* photobazar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F779E6D023E03F11006173F1 /* photobazaradmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F779E6E223E03F26006173F1 /* Build configuration list for PBXNativeTarget "photobazaradmin" */;
+			buildPhases = (
+				F779E6CD23E03F11006173F1 /* Sources */,
+				F779E6CE23E03F11006173F1 /* Frameworks */,
+				F779E6CF23E03F11006173F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = photobazaradmin;
+			productName = photobazaradmin;
+			productReference = F779E6D123E03F11006173F1 /* photobazaradmin.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,6 +247,9 @@
 				ORGANIZATIONNAME = eitysams;
 				TargetAttributes = {
 					F71001F923DECAE9002517DC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F779E6D023E03F11006173F1 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -113,6 +268,7 @@
 			projectRoot = "";
 			targets = (
 				F71001F923DECAE9002517DC /* photobazar */,
+				F779E6D023E03F11006173F1 /* photobazaradmin */,
 			);
 		};
 /* End PBXProject section */
@@ -122,21 +278,89 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F73041B923F529ED00C46D1C /* login.storyboard in Resources */,
 				F710020823DECAEE002517DC /* LaunchScreen.storyboard in Resources */,
 				F710020523DECAEE002517DC /* Assets.xcassets in Resources */,
+				F710021023DECB88002517DC /* GoogleService-Info.plist in Resources */,
 				F710020323DECAE9002517DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F779E6CF23E03F11006173F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F779E6DE23E03F26006173F1 /* LaunchScreen.storyboard in Resources */,
+				F779E6E423E03FE1006173F1 /* Assets.xcassets in Resources */,
+				F779E6D923E03F11006173F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0009BE3386505134FE9E5D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-photobazar/Pods-photobazar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-photobazar/Pods-photobazar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-photobazar/Pods-photobazar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF829D47A7A7FB19CB590AB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-photobazar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F71001F623DECAE9002517DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F710020023DECAE9002517DC /* ViewController.swift in Sources */,
+				F73041BC23F5366D00C46D1C /* Extensions.swift in Sources */,
+				F73041C323F5595400C46D1C /* Roundedviews.swift in Sources */,
+				F73041C023F5503200C46D1C /* constaints.swift in Sources */,
+				F72F1E9923F1372800516845 /* ViewController.swift in Sources */,
+				F72F1E9B23F1375400516845 /* registervc.swift in Sources */,
+				F710020023DECAE9002517DC /* loginVC.swift in Sources */,
 				F71001FE23DECAE9002517DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F779E6CD23E03F11006173F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F779E6D623E03F11006173F1 /* ViewController.swift in Sources */,
+				F779E6D423E03F11006173F1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +379,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				F710020723DECAEE002517DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F779E6D723E03F11006173F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F779E6D823E03F11006173F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F779E6DC23E03F26006173F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F779E6DD23E03F26006173F1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -280,6 +520,7 @@
 		};
 		F710020D23DECAEE002517DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E59633938290CAA1144E5BD /* Pods-photobazar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +538,7 @@
 		};
 		F710020E23DECAEE002517DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE24EEDFF2E390479D1CD637 /* Pods-photobazar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -306,6 +548,42 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.eitysams.photobazar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F779E6E023E03F26006173F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = photobazaradmin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eitysams.photobazaradmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F779E6E123E03F26006173F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = photobazaradmin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eitysams.photobazaradmin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,6 +607,15 @@
 			buildConfigurations = (
 				F710020D23DECAEE002517DC /* Debug */,
 				F710020E23DECAEE002517DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F779E6E223E03F26006173F1 /* Build configuration list for PBXNativeTarget "photobazaradmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F779E6E023E03F26006173F1 /* Debug */,
+				F779E6E123E03F26006173F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

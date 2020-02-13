@@ -1,0 +1,6 @@
+framework module Pods_photobazar {
+  umbrella header "Pods-photobazar-umbrella.h"
+
+  export *
+  module * { export * }
+}
