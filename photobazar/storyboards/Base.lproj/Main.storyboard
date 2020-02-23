@@ -17,7 +17,18 @@
                     <view key="view" contentMode="scaleToFill" id="VPF-NB-sDu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_cat3" translatesAutoresizingMaskIntoConstraints="NO" id="P12-3J-LAs">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="s5d-0u-Tdc" firstAttribute="trailing" secondItem="P12-3J-LAs" secondAttribute="trailing" id="95R-k6-xob"/>
+                            <constraint firstItem="P12-3J-LAs" firstAttribute="top" secondItem="s5d-0u-Tdc" secondAttribute="top" id="Cyu-QF-pV6"/>
+                            <constraint firstItem="s5d-0u-Tdc" firstAttribute="bottom" secondItem="P12-3J-LAs" secondAttribute="bottom" id="Sud-s7-NUL"/>
+                            <constraint firstItem="P12-3J-LAs" firstAttribute="leading" secondItem="s5d-0u-Tdc" secondAttribute="leading" id="f7W-gx-Osc"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="s5d-0u-Tdc"/>
                     </view>
                     <navigationItem key="navigationItem" id="RnI-mR-qer">
@@ -33,7 +44,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OvB-vb-Xwk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2" y="50"/>
+            <point key="canvasLocation" x="308" y="63"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kQz-0O-Nkg">
@@ -51,7 +62,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dWj-dD-rT5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-878" y="24"/>
+            <point key="canvasLocation" x="-470" y="78"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bg_cat3" width="1500" height="1875"/>
+    </resources>
 </document>
