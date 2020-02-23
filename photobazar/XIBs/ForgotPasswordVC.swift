@@ -25,5 +25,19 @@ class ForgotPasswordVC: UIViewController {
     }
     
     @IBAction func resetclicked(_ sender: Any) {
-    }
+        guard let email = emailtxt.text , email.isNotEmpty else {
+            simpleAlert(title: "Error", msg: "Please enter email.")
+            return
+        }
+        
+        Auth.auth().sendPasswordReset(withEmail:email) {(error) in
+            if let error = error{
+            debugPrint(error)
+            self.handleFireAuthError(error: error)
+            return
+        }
+        
+      }
+    
+   }
 }
