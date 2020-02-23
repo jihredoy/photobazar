@@ -10,4 +10,5 @@ target 'photobazar' do
     pod 'Firebase/Auth'
     pod 'Firebase/Firestore'
     pod 'Firebase/Database'
+    #pod 'KeychainSwift', '~> 3.0'
 end

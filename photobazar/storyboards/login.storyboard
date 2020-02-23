@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3cD-XE-9QW">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -47,6 +47,9 @@
                                         <rect key="frame" x="0.0" y="180" width="355" height="50"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                         <state key="normal" title="Forgate Password"/>
+                                        <connections>
+                                            <action selector="forgatepasswordclicked:" destination="GVV-oc-moT" eventType="touchUpInside" id="q8Q-dk-Oe9"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6pQ-F0-crA" customClass="RoundedButton" customModule="photobazar" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="240" width="355" height="50"/>
@@ -55,11 +58,9 @@
                                         <state key="normal" title="Log In">
                                             <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="Layer.conerRadius">
-                                                <integer key="value" value="25"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="loginclicked:" destination="GVV-oc-moT" eventType="touchUpInside" id="vXY-9h-1uf"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRi-L5-g6P" customClass="RoundedButton" customModule="photobazar" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="300" width="355" height="50"/>
@@ -78,6 +79,9 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                         <state key="normal" title="Continue Guest"/>
+                                        <connections>
+                                            <action selector="guestclicked:" destination="GVV-oc-moT" eventType="touchUpInside" id="6sD-7A-CKD"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -101,10 +105,15 @@
                         <viewLayoutGuide key="safeArea" id="eRu-dj-mQd"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ouj-Rt-bCv"/>
+                    <connections>
+                        <outlet property="activityindicator" destination="c4b-ug-RgR" id="oqP-GC-m8y"/>
+                        <outlet property="emailtxt" destination="h3j-cN-AEi" id="uZr-TY-JkN"/>
+                        <outlet property="passwordtxt" destination="LXo-Vb-mbp" id="IVS-xp-Qgt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B44-kK-OLh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2694" y="-143"/>
+            <point key="canvasLocation" x="1908" y="-283"/>
         </scene>
         <!--Registervc-->
         <scene sceneID="3gz-TR-Hjq">
@@ -143,13 +152,13 @@
                                         <rect key="frame" x="0.0" y="192" width="335" height="48"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Passsword" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oqm-WW-P6w">
                                         <rect key="frame" x="0.0" y="256" width="335" height="48"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rwR-HC-BBY" customClass="RoundedButton" customModule="photobazar" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="320" width="335" height="48"/>
@@ -219,11 +228,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0qN-3P-WGd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3521" y="-143"/>
+            <point key="canvasLocation" x="2852" y="-297"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="OBW-kU-WNW">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v5T-JC-BX3" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController storyboardIdentifier="loginVC" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3cD-XE-9QW" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0Pu-ZH-mxE">
@@ -235,9 +245,8 @@
                         <segue destination="GVV-oc-moT" kind="relationship" relationship="rootViewController" id="Kfq-Jq-fUD"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="v5T-JC-BX3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2385" y="-42"/>
+            <point key="canvasLocation" x="1154" y="-297"/>
         </scene>
     </scenes>
     <resources>

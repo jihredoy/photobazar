@@ -14,7 +14,9 @@
 		F710020523DECAEE002517DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F710020423DECAEE002517DC /* Assets.xcassets */; };
 		F710020823DECAEE002517DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F710020623DECAEE002517DC /* LaunchScreen.storyboard */; };
 		F710021023DECB88002517DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F710020F23DECB88002517DC /* GoogleService-Info.plist */; };
-		F72F1E9923F1372800516845 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72F1E9823F1372800516845 /* ViewController.swift */; };
+		F714218C23FE910800196D66 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F714218A23FE910800196D66 /* ForgotPasswordVC.swift */; };
+		F714218D23FE910800196D66 /* ForgotPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F714218B23FE910800196D66 /* ForgotPasswordVC.xib */; };
+		F72F1E9923F1372800516845 /* homeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72F1E9823F1372800516845 /* homeVC.swift */; };
 		F72F1E9B23F1375400516845 /* registervc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72F1E9A23F1375300516845 /* registervc.swift */; };
 		F73041B923F529ED00C46D1C /* login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73041B823F529ED00C46D1C /* login.storyboard */; };
 		F73041BC23F5366D00C46D1C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73041BB23F5366C00C46D1C /* Extensions.swift */; };
@@ -38,7 +40,9 @@
 		F710020723DECAEE002517DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F710020923DECAEE002517DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F710020F23DECB88002517DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		F72F1E9823F1372800516845 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F714218A23FE910800196D66 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		F714218B23FE910800196D66 /* ForgotPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordVC.xib; sourceTree = "<group>"; };
+		F72F1E9823F1372800516845 /* homeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeVC.swift; sourceTree = "<group>"; };
 		F72F1E9A23F1375300516845 /* registervc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registervc.swift; sourceTree = "<group>"; };
 		F73041B823F529ED00C46D1C /* login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = login.storyboard; sourceTree = "<group>"; };
 		F73041BB23F5366C00C46D1C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -113,6 +117,7 @@
 		F71001FC23DECAE9002517DC /* photobazar */ = {
 			isa = PBXGroup;
 			children = (
+				F714218923FE908D00196D66 /* XIBs */,
 				F72F1E9723F135AF00516845 /* model */,
 				F72F1E9423F1351500516845 /* view */,
 				F72F1E9323F134F600516845 /* controller */,
@@ -123,12 +128,21 @@
 			path = photobazar;
 			sourceTree = "<group>";
 		};
+		F714218923FE908D00196D66 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				F714218A23FE910800196D66 /* ForgotPasswordVC.swift */,
+				F714218B23FE910800196D66 /* ForgotPasswordVC.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
 		F72F1E9323F134F600516845 /* controller */ = {
 			isa = PBXGroup;
 			children = (
 				F71001FF23DECAE9002517DC /* loginVC.swift */,
 				F72F1E9A23F1375300516845 /* registervc.swift */,
-				F72F1E9823F1372800516845 /* ViewController.swift */,
+				F72F1E9823F1372800516845 /* homeVC.swift */,
 				F71001FD23DECAE9002517DC /* AppDelegate.swift */,
 			);
 			path = controller;
@@ -282,6 +296,7 @@
 				F710020823DECAEE002517DC /* LaunchScreen.storyboard in Resources */,
 				F710020523DECAEE002517DC /* Assets.xcassets in Resources */,
 				F710021023DECB88002517DC /* GoogleService-Info.plist in Resources */,
+				F714218D23FE910800196D66 /* ForgotPasswordVC.xib in Resources */,
 				F710020323DECAE9002517DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,9 +363,10 @@
 				F73041BC23F5366D00C46D1C /* Extensions.swift in Sources */,
 				F73041C323F5595400C46D1C /* Roundedviews.swift in Sources */,
 				F73041C023F5503200C46D1C /* constaints.swift in Sources */,
-				F72F1E9923F1372800516845 /* ViewController.swift in Sources */,
+				F72F1E9923F1372800516845 /* homeVC.swift in Sources */,
 				F72F1E9B23F1375400516845 /* registervc.swift in Sources */,
 				F710020023DECAE9002517DC /* loginVC.swift in Sources */,
+				F714218C23FE910800196D66 /* ForgotPasswordVC.swift in Sources */,
 				F71001FE23DECAE9002517DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
