@@ -20,7 +20,7 @@ class homeVC: UIViewController {
         if Auth.auth().currentUser == nil {
             Auth.auth().signInAnonymously { ( result, error) in
                 if let error = error {
-                    self.handleFireAuthError(error: error)
+                    Auth.auth().handleFireAuthError(error: error, vc: self)
                     debugPrint(error)
                 }
             }

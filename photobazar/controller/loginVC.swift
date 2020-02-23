@@ -15,6 +15,10 @@ class loginVC: UIViewController {
     
     
     @IBAction func forgatepasswordclicked(_ sender: Any) {
+        let vc = ForgotPasswordVC()
+         vc.modalTransitionStyle = .crossDissolve
+        vc.modalPresentationStyle = .overCurrentContext
+        present(vc, animated: true, completion: nil)
     }
     
     
@@ -31,7 +35,7 @@ class loginVC: UIViewController {
             
             if let error = error {
                 debugPrint(error)
-                self.handleFireAuthError(error: error)
+                 Auth.auth().handleFireAuthError(error: error, vc: self)
                 self.activityindicator.startAnimating()
                 return
             }

@@ -98,7 +98,7 @@ class registervc: UIViewController ,UITextFieldDelegate {
             
             if let error = error {
                 debugPrint(error)
-                self.handleFireAuthError(error: error)
+               Auth.auth().handleFireAuthError(error: error, vc: self)
                 return
             }
             self.activityindicator.stopAnimating()
