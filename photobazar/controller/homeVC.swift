@@ -15,8 +15,18 @@ class homeVC: UIViewController {
     
 
     @IBOutlet weak var loginOutBtn: UIBarButtonItem!
+    @IBOutlet weak var collectionview: UICollectionView!
+    
+    @IBOutlet weak var activityindicator: UIActivityIndicatorView!
+    
+    //variables
+    var categories =  [category]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        collectionview.delegate =  self
+        collectionview.dataSource = self
+        collectionview.register(UINib(nibName: <#T##String#>, bundle: <#T##Bundle?#>), forCellWithReuseIdentifier: <#T##String#>)
         if Auth.auth().currentUser == nil {
             Auth.auth().signInAnonymously { ( result, error) in
                 if let error = error {
@@ -66,10 +76,32 @@ class homeVC: UIViewController {
                 self.handleFireAuthError(error: error)
                 debugPrint(error)
                 
-            }
+             }
+           }
         }
+    }
+
+extension homeVC : UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout{
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return Categories.count
         
-        
+    }
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: Identifiers.CategoryCell, for: IndexPath) as? CategoryCell {
+            cell.configureCell(Category.categories[IndexPath.item])
+            return cell
+            
         }
+        return UICollectionViewCell()
+    }
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let width = view.frame.width
+        let cellWidth = (width - 50) / 2
+        let cellheight = cellWidth * 1.5
+        
+        return CGSize(width: cellWidth, height:cellheight)
+        
+    }
     }
 
