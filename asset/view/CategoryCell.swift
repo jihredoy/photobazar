@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import kingfisher
+import Kingfisher
 
 class CategoryCell: UICollectionViewCell {
     

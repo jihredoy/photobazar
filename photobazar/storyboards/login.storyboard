@@ -37,7 +37,7 @@
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Paaword" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LXo-Vb-mbp">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LXo-Vb-mbp">
                                         <rect key="frame" x="0.0" y="120" width="355" height="50"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -46,7 +46,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kAP-3A-44w">
                                         <rect key="frame" x="0.0" y="180" width="355" height="50"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                        <state key="normal" title="Forgate Password"/>
+                                        <state key="normal" title="Forgete Password"/>
                                         <connections>
                                             <action selector="forgatepasswordclicked:" destination="GVV-oc-moT" eventType="touchUpInside" id="q8Q-dk-Oe9"/>
                                         </connections>
@@ -113,7 +113,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B44-kK-OLh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1908" y="-283"/>
+            <point key="canvasLocation" x="1905" y="-214"/>
         </scene>
         <!--Registervc-->
         <scene sceneID="3gz-TR-Hjq">
@@ -233,7 +233,6 @@
         <!--Navigation Controller-->
         <scene sceneID="OBW-kU-WNW">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="v5T-JC-BX3" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController storyboardIdentifier="loginVC" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3cD-XE-9QW" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0Pu-ZH-mxE">
@@ -245,6 +244,7 @@
                         <segue destination="GVV-oc-moT" kind="relationship" relationship="rootViewController" id="Kfq-Jq-fUD"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v5T-JC-BX3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1154" y="-297"/>
         </scene>

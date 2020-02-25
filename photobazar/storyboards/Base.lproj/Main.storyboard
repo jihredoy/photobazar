@@ -43,6 +43,7 @@
                         <constraints>
                             <constraint firstItem="zvw-4Y-QQO" firstAttribute="top" secondItem="s5d-0u-Tdc" secondAttribute="top" id="1hg-2T-wvg"/>
                             <constraint firstItem="s5d-0u-Tdc" firstAttribute="trailing" secondItem="zvw-4Y-QQO" secondAttribute="trailing" constant="20" id="P5N-ms-5N7"/>
+                            <constraint firstItem="zvw-4Y-QQO" firstAttribute="bottom" secondItem="s5d-0u-Tdc" secondAttribute="bottom" id="aCM-Zx-HkP"/>
                             <constraint firstItem="zvw-4Y-QQO" firstAttribute="leading" secondItem="s5d-0u-Tdc" secondAttribute="leading" constant="20" id="lU3-ng-DMM"/>
                             <constraint firstAttribute="bottom" secondItem="zvw-4Y-QQO" secondAttribute="bottom" id="mNS-L3-TAO"/>
                         </constraints>

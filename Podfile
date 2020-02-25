@@ -12,6 +12,18 @@ target 'photobazar' do
     pod 'Firebase/Auth'
     pod 'Firebase/Firestore'
     pod 'Firebase/Database'
-    pod 'Kingfisher', '~> 5.0'
+    pod 'Kingfisher', '~> 4.0'
     #Pod 'IQKeyboardManager'
 end
+
+target 'photobazaradmin' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  
+  use_frameworks!
+  
+  pod 'CropViewController'
+
+  # Pods for Photo_Bazar_Admin
+
+end
+
