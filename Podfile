@@ -12,6 +12,6 @@ target 'photobazar' do
     pod 'Firebase/Auth'
     pod 'Firebase/Firestore'
     pod 'Firebase/Database'
-  pod 'Kingfisher', '~> 5.0'
+    pod 'Kingfisher', '~> 5.0'
     #Pod 'IQKeyboardManager'
 end

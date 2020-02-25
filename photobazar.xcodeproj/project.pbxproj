@@ -292,7 +292,7 @@
 				};
 			};
 			buildConfigurationList = F71001F523DECAE9002517DC /* Build configuration list for PBXProject "photobazar" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
