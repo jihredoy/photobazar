@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		643A5FBB2407B1CE006E92DF /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D95C72403B374001B521A /* CategoryCell.swift */; };
 		8380BAB5D1A6FF8D9CE1B4A3 /* Pods_photobazaradmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D493FFE97C8FC3EDC1882D /* Pods_photobazaradmin.framework */; };
 		99639ABCBABDC99EC92673DA /* Pods_photobazar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE2A421462EF9C54DE8A68C /* Pods_photobazar.framework */; };
 		F71001FE23DECAE9002517DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71001FD23DECAE9002517DC /* AppDelegate.swift */; };
@@ -452,6 +453,7 @@
 				F7ADC371240281FD0039AC53 /* Firebase+Utils.swift in Sources */,
 				F779E6D623E03F11006173F1 /* ViewController.swift in Sources */,
 				F779E6D423E03F11006173F1 /* AppDelegate.swift in Sources */,
+				643A5FBB2407B1CE006E92DF /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
